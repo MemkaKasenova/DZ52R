@@ -13,9 +13,17 @@
 		9FE2E29E2A1D2B4A00DF44EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2E29C2A1D2B4A00DF44EE /* Main.storyboard */; };
 		9FE2E2A02A1D2B4A00DF44EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2E29F2A1D2B4A00DF44EE /* Assets.xcassets */; };
 		9FE2E2A32A1D2B4A00DF44EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2E2A12A1D2B4A00DF44EE /* LaunchScreen.storyboard */; };
+		9FE2E2AC2A1D2BE700DF44EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2E2AB2A1D2BE700DF44EE /* NetworkManager.swift */; };
+		9FE2E2AF2A1D2C2000DF44EE /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2E2AE2A1D2C2000DF44EE /* MainModel.swift */; };
+		9FE2E2B12A1D2C4200DF44EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2E2B02A1D2C4200DF44EE /* Constants.swift */; };
+		9FE2E2B32A1D2C8100DF44EE /* ImageDownLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2E2B22A1D2C8100DF44EE /* ImageDownLoader.swift */; };
+		9FE2E2B52A1D2CA900DF44EE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2E2B42A1D2CA900DF44EE /* TabBarController.swift */; };
+		9FE2E2B72A1D2CCF00DF44EE /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2E2B62A1D2CCF00DF44EE /* CustomTableView.swift */; };
+		E387F7E957F43CB677E22B8D /* Pods_DZ52R.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055DEDFA0862D3B3A509E3F2 /* Pods_DZ52R.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		055DEDFA0862D3B3A509E3F2 /* Pods_DZ52R.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZ52R.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE2E2932A1D2B4A00DF44EE /* DZ52R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ52R.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE2E2962A1D2B4A00DF44EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE2E2982A1D2B4A00DF44EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		9FE2E29F2A1D2B4A00DF44EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FE2E2A22A1D2B4A00DF44EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FE2E2A42A1D2B4A00DF44EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE2E2AB2A1D2BE700DF44EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9FE2E2AE2A1D2C2000DF44EE /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		9FE2E2B02A1D2C4200DF44EE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9FE2E2B22A1D2C8100DF44EE /* ImageDownLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownLoader.swift; sourceTree = "<group>"; };
+		9FE2E2B42A1D2CA900DF44EE /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9FE2E2B62A1D2CCF00DF44EE /* CustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
+		DED160048B89893F807DC74C /* Pods-DZ52R.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ52R.debug.xcconfig"; path = "Target Support Files/Pods-DZ52R/Pods-DZ52R.debug.xcconfig"; sourceTree = "<group>"; };
+		E943CE446F43912DF8F92049 /* Pods-DZ52R.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ52R.release.xcconfig"; path = "Target Support Files/Pods-DZ52R/Pods-DZ52R.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E387F7E957F43CB677E22B8D /* Pods_DZ52R.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77596196E93E9F9AD94DB0D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				055DEDFA0862D3B3A509E3F2 /* Pods_DZ52R.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		831B9A21111D75D96362FB9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DED160048B89893F807DC74C /* Pods-DZ52R.debug.xcconfig */,
+				E943CE446F43912DF8F92049 /* Pods-DZ52R.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9FE2E28A2A1D2B4A00DF44EE = {
 			isa = PBXGroup;
 			children = (
 				9FE2E2952A1D2B4A00DF44EE /* DZ52R */,
 				9FE2E2942A1D2B4A00DF44EE /* Products */,
+				831B9A21111D75D96362FB9D /* Pods */,
+				77596196E93E9F9AD94DB0D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,37 @@
 		9FE2E2952A1D2B4A00DF44EE /* DZ52R */ = {
 			isa = PBXGroup;
 			children = (
+				9FE2E2AD2A1D2C0200DF44EE /* Main */,
+				9FE2E2AA2A1D2BD100DF44EE /* NetworkManager */,
 				9FE2E2962A1D2B4A00DF44EE /* AppDelegate.swift */,
 				9FE2E2982A1D2B4A00DF44EE /* SceneDelegate.swift */,
-				9FE2E29A2A1D2B4A00DF44EE /* ViewController.swift */,
 				9FE2E29C2A1D2B4A00DF44EE /* Main.storyboard */,
 				9FE2E29F2A1D2B4A00DF44EE /* Assets.xcassets */,
 				9FE2E2A12A1D2B4A00DF44EE /* LaunchScreen.storyboard */,
 				9FE2E2A42A1D2B4A00DF44EE /* Info.plist */,
+				9FE2E2B42A1D2CA900DF44EE /* TabBarController.swift */,
+				9FE2E2B62A1D2CCF00DF44EE /* CustomTableView.swift */,
 			);
 			path = DZ52R;
+			sourceTree = "<group>";
+		};
+		9FE2E2AA2A1D2BD100DF44EE /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2E2AB2A1D2BE700DF44EE /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		9FE2E2AD2A1D2C0200DF44EE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2E2AE2A1D2C2000DF44EE /* MainModel.swift */,
+				9FE2E29A2A1D2B4A00DF44EE /* ViewController.swift */,
+				9FE2E2B02A1D2C4200DF44EE /* Constants.swift */,
+				9FE2E2B22A1D2C8100DF44EE /* ImageDownLoader.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FE2E2A72A1D2B4A00DF44EE /* Build configuration list for PBXNativeTarget "DZ52R" */;
 			buildPhases = (
+				A120F72F6094C40E4002A4EA /* [CP] Check Pods Manifest.lock */,
 				9FE2E28F2A1D2B4A00DF44EE /* Sources */,
 				9FE2E2902A1D2B4A00DF44EE /* Frameworks */,
 				9FE2E2912A1D2B4A00DF44EE /* Resources */,
+				41001792509ED72BA7E15315 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +194,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41001792509ED72BA7E15315 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ52R/Pods-DZ52R-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ52R/Pods-DZ52R-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DZ52R/Pods-DZ52R-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A120F72F6094C40E4002A4EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DZ52R-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FE2E28F2A1D2B4A00DF44EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE2E2AC2A1D2BE700DF44EE /* NetworkManager.swift in Sources */,
+				9FE2E2B52A1D2CA900DF44EE /* TabBarController.swift in Sources */,
 				9FE2E29B2A1D2B4A00DF44EE /* ViewController.swift in Sources */,
 				9FE2E2972A1D2B4A00DF44EE /* AppDelegate.swift in Sources */,
+				9FE2E2B32A1D2C8100DF44EE /* ImageDownLoader.swift in Sources */,
+				9FE2E2B72A1D2CCF00DF44EE /* CustomTableView.swift in Sources */,
+				9FE2E2AF2A1D2C2000DF44EE /* MainModel.swift in Sources */,
 				9FE2E2992A1D2B4A00DF44EE /* SceneDelegate.swift in Sources */,
+				9FE2E2B12A1D2C4200DF44EE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +391,7 @@
 		};
 		9FE2E2A82A1D2B4A00DF44EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED160048B89893F807DC74C /* Pods-DZ52R.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +402,6 @@
 				INFOPLIST_FILE = DZ52R/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +419,7 @@
 		};
 		9FE2E2A92A1D2B4A00DF44EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E943CE446F43912DF8F92049 /* Pods-DZ52R.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +430,6 @@
 				INFOPLIST_FILE = DZ52R/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
